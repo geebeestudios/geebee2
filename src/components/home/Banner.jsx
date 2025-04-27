@@ -2,6 +2,7 @@ import React from "react";
 import bannerImg from "../../assets/banner_img.png";
 import ellipse1 from "../../assets/Ellipse1.svg";
 import ellipse2 from "../../assets/Ellipse2.svg";
+import ellipse3 from "../../assets/Ellipse4.svg";
 import { scrollToElement } from "../utils";
 const Banner = () => {
   return (
@@ -58,6 +59,11 @@ const Banner = () => {
           Get Your Free Brand Strategy Audit
         </button>
       </div>
+      <img
+          className="absolute h-[100px] lg:h-[150px] left-0 lg:-right-20 top-[10%]"
+          src={ellipse3}
+          alt=""
+        />
     </div>
   );
 };
