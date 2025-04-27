@@ -29,7 +29,7 @@ const Banner = () => {
           Get Your Free Brand Strategy Audit
         </button>
       </div>
-      <div className="relative overflow-x-visible place-items-center h-fit">
+      <div className="relative flex justify-center overflow-x-visible place-items-center h-fit">
         <img
           className="relative object-cover z-10 h-[200px] md:h-[550px] w-auto"
           src={bannerImg}
