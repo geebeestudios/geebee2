@@ -30,7 +30,13 @@ const Navbar = () => {
           </p>
         ))}
       </div>
-      <button className="hidden lg:block text-white bg-primary py-2 px-4">
+      <button
+        onClick={() => {
+          toggleMenu();
+          scrollToElement("#audit", -20);
+        }}
+        className="hidden lg:block text-white bg-primary py-2 px-4"
+      >
         Free Audit
       </button>
       {/* Mobile Menu Button */}
@@ -70,7 +76,7 @@ const Navbar = () => {
               <div
                 onClick={() => {
                   toggleMenu();
-                  scrollToElement("#audit", -20)
+                  scrollToElement("#audit", -20);
                 }}
                 // href="/join-us"
                 className="py-2 text-white bg-primary w-full flex justify-center border border-gray-400 rounded-md"
