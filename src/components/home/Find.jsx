@@ -1,8 +1,9 @@
 import React from "react";
+import { scrollToElement } from "../utils";
 
 const Find = () => {
   return (
-    <div className="flex flex-col gap-4 justify-center items-center h-[350px] bg-black text-white">
+    <div className="flex flex-col px-5 sm:px-10 gap-4 justify-center items-center h-[350px] bg-black text-white">
       <h1 className="font-roboto text-[25px] font-semibold">
         Let’s Find What’s Keeping You Stuck
       </h1>
@@ -10,7 +11,12 @@ const Find = () => {
         A free strategy audit is just the start. Together we’ll design a brand
         that finally moves.
       </p>
-      <button className="py-2 px-4 text-[14px] bg-primary">Start The Brand Reset!</button>
+      <button
+        onClick={() => scrollToElement("#audit", -20)}
+        className="py-2 px-4 text-[14px] bg-primary"
+      >
+        Start The Brand Reset!
+      </button>
     </div>
   );
 };

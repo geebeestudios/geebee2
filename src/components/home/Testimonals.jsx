@@ -5,7 +5,7 @@ import { MdOutlinePhotoSizeSelectActual } from "react-icons/md";
 
 const Testimonals = () => {
   return (
-    <div className="flex w-full items-center justify-center h-[400px]">
+    <div id="testimonials" className="flex w-full items-center py-10 justify-center min-h-[400px] md:h-[400px]">
       <div className="flex flex-col gap-5 items-center h-fit w-full px-10 sm:px-20 lg:px-0 lg:w-[50%]">
         <img className="w-[130px]" src={stars} alt="" />
         <p className="px-5 font-open_sans font-semibold text-center">

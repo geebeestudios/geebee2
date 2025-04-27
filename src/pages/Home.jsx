@@ -6,7 +6,7 @@ import Where from "../components/home/Where";
 import Process from "../components/home/Process";
 import Testimonals from "../components/home/Testimonals";
 import Find from "../components/home/Find";
-import Footer from "../components/home/Footer";
+import Footer from "../common/Footer";
 
 const Home = () => {
   return (

@@ -3,7 +3,7 @@ import logo from "/logo2.svg";
 
 const Footer = () => {
   return (
-    <div className="h-fit md:h-[380px]">
+    <div id="audit" className="h-fit md:h-[380px]">
       <div className="flex py-10 flex-wrap items-center w-full px-5 sm:px-14 justify-between h-[85%]">
         <img className="h-[70px]" src={logo} alt="" />
         <div className="hidden sm:block">

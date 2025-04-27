@@ -8,12 +8,11 @@ import process6 from "../../assets/process6.png";
 
 const Process = () => {
   return (
-    <div className="py-10 px-10 lg:px-20 grid grid-cols-1 lg:grid-cols-2 gap-20 bg-[#E9E4DC] lg:min-h-[500px]">
+    <div id="process" className="py-10 px-5 sm:px-10 lg:px-20 grid grid-cols-1 lg:grid-cols-2 gap-20 bg-[#E9E4DC] lg:min-h-[500px]">
       <div className="hidden lg:flex relative w-full">
         {/* <div className="absolute border border-black/60 bg-transparent rounded-full top-[5%] h-[350px] w-[400px]" /> */}
         <div className="w-[50%] flex flex-col h-full justify-between">
           <div className="relative flex gap-4 items-start">
-            
             <img
               className="h-[130px] w-fit object-cover"
               src={process1}
@@ -58,7 +57,7 @@ const Process = () => {
           </div>
         </div>
       </div>
-      <div className="px-10 flex flex-col sm:items-center lg:items-start w-full justify-center">
+      <div className="flex flex-col sm:items-center lg:items-start w-full justify-center">
         <h1 className="text-[25px] lg:text-[35px] font-montserrat font-bold mb-4">
           Our Process is Precise
         </h1>

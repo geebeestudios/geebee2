@@ -3,8 +3,8 @@ import picture from "../../assets/sound2.png";
 
 const Where = () => {
   return (
-    <div className="pt-10 lg:py-0 flex flex-col lg:flex-row items-center justify-between px-10 lg:px-20 bg-[#F8F8F8]">
-      <div className="h-fit px-10">
+    <div className="pt-10 lg:py-0 flex flex-col lg:flex-row items-center justify-between px-5 sm:px-10 lg:px-20 bg-[#F8F8F8]">
+      <div className="h-fit">
         <h1 className="text-[25px] lg:text-[35px] font-montserrat font-bold mb-4">
           This is Where We Come In
         </h1>

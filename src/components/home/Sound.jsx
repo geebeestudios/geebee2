@@ -3,9 +3,9 @@ import picture from "../../assets/sound.png";
 
 const Sound = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-20 items-center py-20 px-10 lg:px-20 bg-gradient-to-br from-[#E9E4DC] via-[#E9E4DC] to-[#c7a9629b]">
+    <div id="what" className="flex flex-col lg:flex-row gap-20 items-center py-10 sm:py-20 px-5 sm:px-10 lg:px-20 bg-gradient-to-br from-[#E9E4DC] via-[#E9E4DC] to-[#c7a9629b]">
       <img className="hidden lg:block h-[450px] w-[400px] object-cover" src={picture} alt="" />
-      <div className="px-10">
+      <div>
         <h1 className="text-[25px] lg:text-[35px] font-montserrat font-bold mb-4">
           Sound Familiar?
         </h1>
