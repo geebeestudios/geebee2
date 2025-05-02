@@ -17,7 +17,7 @@ const Navbar = () => {
     ];
 
     return (
-        <div className="py-4 px-6 glass fixed left-0 w-full top-0 z-[99] flex justify-between items-center">
+        <div className="py-4 px-3 md:px-6 glass fixed left-0 w-full top-0 z-[99] flex justify-between items-center">
             <img
                 className="relative z-[210] h-[40px] w-auto"
                 src={logo}
@@ -37,10 +37,7 @@ const Navbar = () => {
             <button
                 onClick={() => {
                     toggleMenu();
-                    window.open(
-                        "https://calendly.com/geebeestudios/consulation-geebee-studios",
-                        "_blank"
-                    );
+                    window.open("tel:+12202627030", "_blank");
                 }}
                 className="hidden lg:block text-white bg-primary py-2 px-4"
             >

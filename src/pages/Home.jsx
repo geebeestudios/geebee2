@@ -9,20 +9,20 @@ import Find from "../components/home/Find";
 import Footer from "../common/Footer";
 
 const Home = () => {
-  return (
-    <div className="flex w-full justify-center">
-      <div className="2xl:w-[80%]">
-        <Navbar />
-        <Banner />
-        <Sound />
-        <Where />
-        <Process />
-        <Testimonals />
-        <Find />
-        <Footer />
-      </div>
-    </div>
-  );
+    return (
+        <div className="flex w-full justify-center">
+            <div className="2xl:w-[80%]">
+                <Navbar />
+                <Banner />
+                <Sound />
+                <Where />
+                <Process />
+                <Testimonals />
+                <Find />
+                <Footer />
+            </div>
+        </div>
+    );
 };
 
 export default Home;

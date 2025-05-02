@@ -3,19 +3,24 @@ import logo from "/logo2.svg";
 
 const Footer = () => {
     return (
-        <div id="audit" className="h-fit md:h-[380px]">
+        <div id="audit" className="h-fit md:h-[380px] px-3 md:px-0">
             <div className="flex py-10 flex-wrap items-center w-full px-5 sm:px-14 justify-between h-[85%]">
                 <img className="h-[70px]" src={logo} alt="" />
                 <div className="hidden sm:block">
                     <p className="font-semibold text-black/70 text-[15px]">
                         Email:{" "}
-                        <span className="font-normal">
+                        <a
+                            href="mailto:hello@geebeestudios.com"
+                            className="font-normal"
+                        >
                             hello@geebeestudios.com
-                        </span>
+                        </a>
                     </p>
                     <p className="font-semibold text-black/70 text-[15px]">
                         Phone:{" "}
-                        <span className="font-normal">(220)262-7030</span>
+                        <a href="tel:+12202627030" className="font-normal">
+                            +1 (220)262-7030
+                        </a>
                     </p>
                 </div>
                 <div className="flex flex-col gap-3 w-full sm:w-[370px]">
