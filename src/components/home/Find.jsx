@@ -12,7 +12,12 @@ const Find = () => {
                 brand that finally moves.
             </p>
             <button
-                onClick={() => scrollToElement("#audit", -20)}
+                onClick={() => {
+                    window.open(
+                        "https://calendly.com/geebeestudios/consulation-geebee-studios",
+                        "_blank"
+                    );
+                }}
                 className="py-2 px-4 text-[14px] bg-primary"
             >
                 Start The Brand Reset!
