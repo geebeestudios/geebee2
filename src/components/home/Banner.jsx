@@ -51,7 +51,7 @@ const Banner = () => {
                     alt=""
                 />
                 <img
-                    className="absolute right-0 lg:-right-20 top-[20%]"
+                    className="absolute right-0 lg:-right-20 top-[20%] hidden md:block"
                     src={ellipse2}
                     alt=""
                 />
